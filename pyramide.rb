@@ -6,13 +6,13 @@ puts "Voici la pyramide :"
 
 etages.times do 
 	if i <= etages
-		puts i
+		puts "#"
 		i = i - 1
 	end
 	i.times do
-		print i
+		print "#"
 	end
 	if i == 0
-		puts "0"
+		puts "#"
 	end
 end
